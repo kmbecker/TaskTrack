@@ -1,25 +1,25 @@
+var path = require('path');
+
 module.exports = {
-    // Using this code, you can debug in chrome dev tools
-    devtool: 'eval-source-map',
-    // start of react
-    entry: './app/app.js',
-
-    module: {
-        loaders: [
-            {
-                // Webpack will only process files in our app folder.
-                include: /app/,
-                loader: 'babel-loader',
-                query: {
-                    // These are the specific transformations we'll be using.
-                    presets: ['react', 'es2015']
-                },
-                // Only working with files that in in a .js
-                test: /\.jsx?$/
-            }
-        ]
+    entry: [
+        './src/index.js'
+    ],
+    output: {
+        path: path.join(__dirname, '/public/build'),
+        publicPath: '/',
+        filename: 'bundle.js'
     },
-
-    // The plain compiled JavaScript will be output
-    output: {filename: 'public/bundle.js'}
+    module: {
+        loaders: [{
+            test: /\.js$/,
+            exclude: /node_modules/,
+            loader: 'babel-loader',
+            query: {
+                presets: ['latest', 'react']
+            }
+        }]
+    },
+    resolve: {
+        extensions: ['.js', '.jsx']
+    }
 };

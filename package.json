@@ -1,46 +1,27 @@
 {
-  "name": "final_project",
-  "version": "0.0.1",
-  "description": "Toilet Pal",
-  "main": "server.js",
+  "name": "nodejs-express-react-todo-list",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "eslint . & jasmine",
-    "dev": "webpack & node server",
-    "start": "node server",
-    "build": "webpack",
-    "lint": "eslint ."
+    "postinstall": "webpack -p",
+    "build": "webpack -p",
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kmbecker/TP.git"
-  },
-  "author": "Kyle Becker",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kmbecker/TP/issues"
-  },
-  "homepage": "https://github.com/kmbecker/TP#readme",
   "dependencies": {
-    "babel": "^6.23.0",
-    "babel-preset-env": "^1.6.1",
-    "body-parser": "^1.17.0",
-    "eslint": "^4.18.0",
-    "express": "^4.16.2",
-    "lint": "^1.1.2",
-    "node": "^9.5.0",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "pug": "^2.0.0-rc.4",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "request": "^2.79.0",
-    "updates": "^2.2.1",
-    "yarn": "^1.3.2"
-  },
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^6.4.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "jasmine": "^2.99.0",
-    "react-addons-test-utils": "^15.4.2",
+    "serve-favicon": "~2.3.0",
     "webpack": "^2.2.1"
   }
 }
