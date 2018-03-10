@@ -33,7 +33,6 @@
     "is-typedarray": "^1.0.0",
     "moment": "^2.19.3",
     "moment-timezone": "^0.5.13",
-    "momentjs": "^2.0.0",
     "mongoose": "^4.13.11",
     "mongoose-timestamp": "^0.6.0",
     "morgan": "^1.9.0",

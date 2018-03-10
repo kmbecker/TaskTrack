@@ -5,10 +5,10 @@ const Menu = () => {
     <div className="copyright">
       <ul className="menu">
         <li>
-          &copy; 2017. All rights reserved.
+          &copy; 2018. All rights reserved.
         </li>
         <li>
-          <a href="https://github.com/kmbecker/task-tracker" target="_blank">
+          <a href="https://github.com/kmbecker/TaskTrack" target="_blank">
             GitHub Project
           </a>
         </li>
