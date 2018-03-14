@@ -4,7 +4,7 @@ const Logo = () => {
   return(
     <div className="row">
       <div className="12u">
-        <img src="/images/footer-logo.png" />
+        <img src="/images/TaskChain100.png" />
       </div>
     </div>
   )
