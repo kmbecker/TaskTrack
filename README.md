@@ -2,7 +2,7 @@
 
 A task tracking app that gives context and linearity to your "To-Do" list. 
 
-Knocking out errands and chores one task at a time helps make your day do-able. Once you've finished one task, move on to the next one. Before you realize, you're almost done with mission.
+Knocking out errands and chores one task at a time helps make your day do-able. Once you've finished one task, move on to the next one. Before you realize, you're almost done with your mission.
 
 <img src="./readMeGif/TaskChain.gif">
 
@@ -13,6 +13,6 @@ Login and add tasks to the beginning or the end of your chain. Filter your chain
 Mobile update coming soon. 
 
 <h3>Contributors</h3>
-<a href="https://github.com/kmbecker">Kyle Becker</a>
-<a href="https://github.com/zbmiller">Zach Miller</a>
+<a href="https://github.com/kmbecker">Kyle Becker</a></br>
+<a href="https://github.com/zbmiller">Zach Miller</a></br>
 <a href="https://github.com/Cole-Mertz">Cole Mertz</a>
