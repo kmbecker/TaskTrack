@@ -3,4 +3,7 @@ node_modules
 npm-debug.log
 .env
 public/build
-tasktrackerchain
+spec/
+.eslintrc
+yarn-error.log
+.eslintingore
