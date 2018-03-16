@@ -11,3 +11,8 @@ Login and add tasks to the beginning or the end of your chain. Filter your chain
 <a href= "https://tasktrackerchain.herokuapp.com/">https://tasktrackerchain.herokuapp.com</a>
 
 Mobile update coming soon. 
+
+<h3>Contributors</h3>
+<a href="https://github.com/kmbecker">Kyle Becker</a>
+<a href="https://github.com/zbmiller">Zach Miller</a>
+<a href="https://github.com/Cole-Mertz">Cole Mertz</a>
