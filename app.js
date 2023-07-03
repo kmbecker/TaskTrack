@@ -11,7 +11,13 @@ var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var flash = require('connect-flash');
 var mongoose = require('mongoose');
-var MongoStore = require('connect-mongo')(session);
+var MongoStore = require('connect-mongo')
+
+//Create MongoDB session 
+app.use(session({
+store: MongoStore.create({ mongoUrl: 'mongodb://localhost/test-app' })
+}));
+
 var Promise = require('bluebird');
 
 var index = require('./routes/index');
