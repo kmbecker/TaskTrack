@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Task Chain Tracking Application",
   "private": true,
+  "mainted": "Kyle Becker",
   "author": "Kyle Becker, Zach Miller, Cole Waltz",
   "main": "bin/www",
   "repository": {
