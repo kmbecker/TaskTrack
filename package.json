@@ -1,6 +1,6 @@
 {
   "name": "TaskTracker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Task Chain Tracking Application",
   "private": true,
   "mainted": "Kyle Becker",
